@@ -1,6 +1,6 @@
 import { Admin, Resource } from "react-admin";
 import restProvider from "ra-data-simple-rest";
-import PostList from "./components/PostList";
+import { PostList } from "./components/PostList";
 
 function App() {
 	return (
