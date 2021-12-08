@@ -17,12 +17,6 @@
       "title": "Post Three",
       "body": "This is the post body",
       "publishedAt": "08-12-2021"
-    },
-    {
-      "title": "Post Four",
-      "body": "This is the body",
-      "publishedAt": "08-12-2021",
-      "id": "tj8b32S"
     }
   ],
   "users": [
