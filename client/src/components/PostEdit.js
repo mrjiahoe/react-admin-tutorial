@@ -6,6 +6,7 @@ export const PostEdit = (props) => {
 		<Edit title="Edit Post" {...props}>
 			<SimpleForm>
 				<TextInput disabled source="id" />
+				<TextInput source="title" />
 				<TextInput multiline source="body" />
 				<DateInput label="Published" source="publishedAt" />
 			</SimpleForm>
