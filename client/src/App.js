@@ -3,9 +3,9 @@ import restProvider from "ra-data-simple-rest";
 import { PostList } from "./components/PostList";
 import { PostCreate } from "./components/PostCreate";
 import { PostEdit } from "./components/PostEdit";
-import { UserList } from "./components/PostList";
-import { UserCreate } from "./components/PostCreate";
-import { UserEdit } from "./components/PostEdit";
+import { UserList } from "./components/UserList";
+import { UserCreate } from "./components/UserCreate";
+import { UserEdit } from "./components/UserEdit";
 
 function App() {
 	return (
@@ -17,7 +17,7 @@ function App() {
 				edit={PostEdit}
 			/>
 			<Resource
-				name="user"
+				name="users"
 				list={UserList}
 				create={UserCreate}
 				edit={UserEdit}
